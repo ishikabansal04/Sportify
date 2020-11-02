@@ -1,0 +1,65 @@
+
+body{
+    padding: 65px 0px 0px 0px;
+    margin: 0px;
+    z-index: 0;
+    /* color: #FFFFFF;
+    background: #000000; */
+}
+
+
+.navbar-dark{
+    background: #00203FFF;
+}
+ 
+.tab-content{
+    border-left: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    padding: 15px 10px 10px 10px;
+    margin-bottom: 10px;
+    background-color:#eeecec ;
+}
+
+#one{
+    position: absolute;
+    top: 15px;
+}
+
+.page-heading{
+    margin: 20px 0px; 
+    font-family: 'Trade Winds'; 
+    text-align: center; 
+    font-size: 450%;
+    background: -webkit-linear-gradient(left, #F32170, #FFEB07, #2196F3, #FF00EB);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
